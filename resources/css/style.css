@@ -97,3 +97,8 @@ html, body {
 /* Ensure links inherit light color unless styled */
 a { color: inherit; }
 
+.footer {
+  text-align: right;
+}
+
+
