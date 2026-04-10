@@ -1,0 +1,90 @@
+.html-body-theme {
+}
+
+/* Global dark theme and centering */
+html, body {
+	height: 100%;
+	margin: 0;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Layout for centering videos or embedded iframes */
+.video-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 50vh;
+	padding: 1rem;
+}
+
+.video-container iframe,
+.video-container video {
+	max-width: 100%;
+	width: 800px;
+	height: auto;
+	box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+	border-radius: 8px;
+}
+
+/* Utility: center any single block-level element */
+.center-block { display:block; margin-left:auto; margin-right:auto; }
+/* Camp image sizing */
+.camp-image {
+	max-width: 800px;
+	width: 100%;
+	margin-top: 1rem;
+	border-radius: 8px;
+	box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Phone image sizing: slightly smaller than camp image */
+.phone-image {
+	max-width: 120px;
+	width: 120px;
+	height: auto;
+	margin-top: 0.75rem;
+	border-radius: 8px;
+	box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Feature header under phone image */
+.feature-header {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Download button/link styling */
+.download-link {
+	display: inline-block;
+	padding: 10px 18px;
+	background: #28a745;
+	color: #fff;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.download-link:hover { background: #218838; }
+
+/* Subheader styling placed under the personal travel guide header */
+.subheader {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #ddd;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Ensure links inherit light color unless styled */
+a { color: inherit; }
+
